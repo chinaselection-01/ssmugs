@@ -1,0 +1,8 @@
+node_modules/
+/out/
+/.next/
+*.log
+.env*
+.env.local
+.DS_Store
+public/products/_old/
