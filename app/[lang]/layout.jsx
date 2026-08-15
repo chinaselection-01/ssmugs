@@ -46,6 +46,16 @@ export default function LangLayout({ children, params }) {
   return (
     <html lang={lang}>
       <body>
+        {/* Google Analytics 4 - ssmugs.com */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-WFMD6SKYZ"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WFMD6SKYZ');`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(ORG_JSONLD) }}
