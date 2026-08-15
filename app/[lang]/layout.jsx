@@ -13,7 +13,7 @@ export function generateMetadata({ params }) {
     title: d.meta.title,
     description: d.meta.description,
     keywords:
-      'stainless steel bottle, insulated bottle, vacuum flask, wholesale, China factory, B2B, OEM ODM, direct sale, drinkware supplier, custom logo',
+      'stainless steel mugs factory, professional stainless steel mugs factory, insulated bottle, vacuum insulated bottle, double wall bottle, wholesale, bulk order, China factory, B2B, OEM ODM, direct sale, custom logo, competitive price, drinkware supplier, ssmugs',
     alternates: {
       languages: { en: `/en`, pl: `/pl` },
     },
@@ -26,7 +26,7 @@ const ORG_JSONLD = {
   name: 'SS Mugs',
   url: 'https://ssmugs.com',
   description:
-    'China stainless steel insulated bottle factory. Wholesale B2B OEM/ODM manufacturer, direct sale, custom logo, low MOQ.',
+    'Professional stainless steel mugs factory in China. Wholesale and bulk-order B2B OEM/ODM manufacturer of insulated, vacuum insulated, double-wall drinkware — direct sale, custom logo, competitive price, low MOQ.',
   address: {
     '@type': 'PostalAddress',
     addressCountry: 'CN',
