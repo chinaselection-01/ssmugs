@@ -13,6 +13,7 @@ export default function Header({ lang, nav }) {
           <Link href={`${base}/oem`}>{nav.oem}</Link>
           <Link href={`${base}/about`}>{nav.about}</Link>
           <Link href={`${base}/faq`}>{nav.faq}</Link>
+          <Link href={`${base}/guides`}>{nav.guides}</Link>
           <Link href={`${base}/contact`} className="btn btn-accent" style={{ padding: '9px 18px' }}>{nav.contact}</Link>
           <LangSwitch lang={lang} label={nav.lang} />
         </nav>

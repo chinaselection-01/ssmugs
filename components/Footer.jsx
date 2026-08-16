@@ -17,6 +17,7 @@ export default function Footer({ lang, d, nav }) {
             <Link href={`${base}/products`}>{nav.products}</Link>
             <Link href={`${base}/oem`}>{nav.oem}</Link>
             <Link href={`${base}/about`}>{nav.about}</Link>
+            <Link href={`${base}/guides`}>{nav.guides}</Link>
             <Link href={`${base}/contact`}>{nav.contact}</Link>
           </div>
           <div>

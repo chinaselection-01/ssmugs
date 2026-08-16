@@ -1,10 +1,11 @@
 import { products } from './lib/products.js';
 import { productImages } from './lib/productImages.js';
+import { guides } from './lib/guides.js';
 import fs from 'fs';
 
 const BASE = 'https://ssmugs.com';
 const LANGS = ['en', 'pl'];
-const PAGES = ['', '/products', '/oem', '/about', '/faq', '/contact'];
+const PAGES = ['', '/products', '/oem', '/about', '/guides', '/faq', '/contact'];
 
 function urlEntry(loc, image) {
   let s = `  <url><loc>${loc}</loc>`;
@@ -19,6 +20,9 @@ for (const lang of LANGS) {
   for (const pr of products) {
     const img = productImages[pr.name] || null;
     urls.push(urlEntry(`${BASE}/${lang}/products/${pr.slug}`, img));
+  }
+  for (const g of guides) {
+    urls.push(urlEntry(`${BASE}/${lang}/guides/${g.slug}`));
   }
 }
 
