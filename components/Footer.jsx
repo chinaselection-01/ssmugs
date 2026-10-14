@@ -28,7 +28,14 @@ export default function Footer({ lang, d, nav }) {
             <span style={{ display: 'block', fontSize: 14 }}>Mobile/WhatsApp: +86 150 8822 8843</span>
           </div>
         </div>
-        <div className="copy">© {year} ssmugs.com — {d.rights}</div>
+        <div className="copy">© {year} ssmugs.com — {d.rights}
+          <div style={{ marginTop: 8, fontSize: 13 }}>
+            Our network:{' '}
+            <a href="https://petmanufacturer.com/" target="_blank" rel="noopener" style={{ color: '#e0954a' }}>petmanufacturer.com</a>
+            {' · '}
+            <a href="https://china-selection.com/" target="_blank" rel="noopener" style={{ color: '#e0954a' }}>China Selection</a>
+          </div>
+        </div>
       </div>
     </footer>
   );
